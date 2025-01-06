@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: cursive;
+}
+
+
+.navbar{
+    color:white;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.nav_logo{
+    
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo{
+    background-image: url("./images/amazon.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid rgb(207, 187, 187);
+}
+    /* BOx twi */
+
+
+.address_first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.address_second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+/* Box third */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* block 4 */
+
+
+.forth{
+    font-size: 14px;
+
+}
+.forth p{
+    font-size: arial;
+    font-weight: bold;
+
+}
+
+/* cartt */
+
+
+.navcart i{
+    font-size: 27px;
+ 
+}
+.navcart{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+
+/** pannel **/
+
+
+.pannel{
+    height: 40px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-evenly;
+
+}
+.navbar,.nav_logo {
+    logo{cursor: not-allowed;}
+}
+.pannel :hover{
+    i{cursor: pointer;}
+}
+/* .shop ,.box,.box-content{
+    p{cursor: not-allowed;}
+} */
+.shop ,.box,.box-content{
+    h2{cursor:default;}
+}
+.hero-section,.hero-msg{
+    p{cursor: default;}
+}
+.pannel-options p{
+    display: inline;
+}
+.pannel-options:hover{
+    p{cursor: pointer;}
+}
+.pannel .mode{
+    color: transparent;
+    background: linear-gradient(red,blue);
+    -webkit-background-clip: text;
+    font-size: 2.1rem;
+    border: 1px solid transparent;
+}
+.pannel .mode:hover{
+    border: 1px solid white;
+    strong{cursor: pointer;}
+}
+
+.pannel-deal{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.pannel-options{
+    width: 70%;
+    font: size 0.85rem;
+    margin-left: 16px;
+}
+
+
+.pannel-all:hover{
+    color: rgb(148, 148, 229);
+    
+}
+
+
+
+/** hero-section**/
+
+
+.hero-section{
+    background-image: url("./images/daraz.png");
+    height: 350px;
+    background-size: contain;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-msg{
+    background-color: rgb(160, 158, 234) transparent;
+    color: rgb(70, 180, 22);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 156px;
+    font-size: 0.85rem;
+}
+
+.anchor{
+    color: yellow;
+}
+.anchor:hover{
+    color: orange;
+    font-size: 18px;
+}
+
+/** shop  **/
+
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(116, 116, 209);
+}
+
+.box{
+    height: 430px;
+    width: 23%;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 20px 0px 15px;
+    background-color: rgb(235, 228, 228);
+
+}
+.box_image{
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+   
+
+
+}
+.box_image:hover {
+    transform: scale(1.03);
+    border: 1.8px double grey;
+
+    /* This will increase the size of the box */
+}
+
+
+.box-content{
+    transition: all;
+    transition:transform 0.5s .25s,background-color 1s 0.25s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+
+    
+}
+.box-content{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.box-content a {
+    color: black;
+}
+.box-content a:hover {
+    color: transparent;
+    background: linear-gradient(red 60%, blue 40%);
+    -webkit-background-clip: text; 
+    font-size:larger ;
+   
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
